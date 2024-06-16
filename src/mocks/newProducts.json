@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "New Products",
+        "category": 1,
+        "price": 25.99,
+        "img": "/ruta/a/las/imagenes/camiseta.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Pantalones vaqueros",
+        "category": 2,
+        "price": 39.95,
+        "img": "/ruta/a/las/imagenes/pantalones.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Zapatos deportivos",
+        "category": 3,
+        "price": 59.99,
+        "img": "/ruta/a/las/imagenes/zapatos.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Chaqueta de cuero",
+        "category": 1,
+        "price": 129.99,
+        "img": "/ruta/a/las/imagenes/chaqueta.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Bufanda de lana",
+        "category": 4,
+        "price": 19.50,
+        "img": "/ruta/a/las/imagenes/bufanda.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Bolsa de viaje",
+        "category": 5,
+        "price": 49.75,
+        "img": "/ruta/a/las/imagenes/bolsa.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Reloj de pulsera",
+        "category": 6,
+        "price": 89.99,
+        "img": "/ruta/a/las/imagenes/reloj.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Gafas de sol",
+        "category": 6,
+        "price": 29.95,
+        "img": "/ruta/a/las/imagenes/gafas.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Mochila urbana",
+        "category": 5,
+        "price": 34.99,
+        "img": "/ruta/a/las/imagenes/mochila.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Chaleco acolchado",
+        "category": 1,
+        "price": 79.50,
+        "img": "/ruta/a/las/imagenes/chaleco.jpg"
+    }
+]

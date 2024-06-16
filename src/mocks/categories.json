@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Ropa"
+    },
+    {
+        "id": 2,
+        "name": "Calzado"
+    },
+    {
+        "id": 3,
+        "name": "Accesorios"
+    },
+    {
+        "id": 4,
+        "name": "Complementos"
+    },
+    {
+        "id": 5,
+        "name": "Equipaje"
+    },
+    {
+        "id": 6,
+        "name": "Accesorios de moda"
+    }
+]

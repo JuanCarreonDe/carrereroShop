@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+  background-color: #151515;
+}
+
+div::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+  margin-top: 10px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb{
+  background-image: linear-gradient(
+    to right,
+    #463e23 0,
+    #cb9b51 22%,
+    #f6e27a 45%,
+    #e9e5b2 50%,
+    #f6e27a 55%,
+    #cb9b51 78%,
+    #463e23 100%
+  );
+  background-color: grey;
+  border-radius: 10px;
+}
+
+.text-gradient {
+  background-image: linear-gradient(
+    to right,
+    #463e23 0,
+    #cb9b51 22%,
+    #f6e27a 45%,
+    #e9e5b2 50%,
+    #f6e27a 55%,
+    #cb9b51 78%,
+    #463e23 100%
+  );
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
