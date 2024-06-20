@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 interface Product {
   id: number;
   name: string;
@@ -11,17 +13,19 @@ interface Props {
   isForHome?: boolean;
 }
 
-export const Card = ({ product, isForHome = true }: Props) => {
+export const Card = ({ product, isForHome = false }: Props) => {
   return (
     // <article className={`flex flex-col gap-2`}>
     <article className={`${isForHome ? "min-w-[150px] sm:min-w-[250px]" : "flex flex-col"} gap-2 hover:scale-105 transition-transform`}>
+      <Link to={'/product'}>
       <img
         src={product.img}
         alt=""
         className="w-full aspect-square bg-neutral-900 rounded-md"
-      />
+        />
       <h3>{product.name}</h3>
       <span className="text-neutral-300 text-sm">${product.price}</span>
+        </Link>
     </article>
   );
 };

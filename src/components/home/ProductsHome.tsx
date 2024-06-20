@@ -18,7 +18,7 @@ export const ProductsHome = ({ products, title }: Props) => {
       <h2 className="text-center text-2xl font-semibold uppercase">{title}</h2>
         <div className="flex gap-7 overflow-x-scroll pb-5 pt-3">
           {products.map((product: Product) => (
-            <Card product={product} key={product.id} />
+            <Card product={product} key={product.id} isForHome/>
           ))}
         </div>
     </section>

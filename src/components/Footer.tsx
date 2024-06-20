@@ -3,7 +3,7 @@ import { FaYoutube } from "react-icons/fa6";
 
 export const Footer = () => {
   return (
-    <footer className="min-h-72 w-full bg-neutral-950 flex justify-center items-center flex-col relative">
+    <footer className="p-14 w-full bg-neutral-950 flex justify-center items-center flex-col relative">
       <div className="flex flex-col justify-center items-center gap-5">
         <div className="flex gap-4 items-center">
           <a href="" className="hover:scale-105 transition-transform">

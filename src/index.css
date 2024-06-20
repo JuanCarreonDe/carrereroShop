@@ -16,6 +16,8 @@ body {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   scroll-behavior: smooth;
+  max-width: 100vw;
+  overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {

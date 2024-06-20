@@ -1,7 +1,11 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Home } from "../screens/Home";
-import { Products } from "../screens/Products";
+import { ProductsList } from "../screens/ProductsList";
 import { CheckOut } from "../screens/CheckOut";
+import products from "../mocks/products.json";
+import categories from '../mocks/categories.json'
+import { Product } from "../screens/Product";
+
 
 export const Navegation = () => {
   return (
@@ -9,8 +13,9 @@ export const Navegation = () => {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="products" element={<Products />} />
+          <Route path="products" element={<ProductsList products={products} categories={categories}/>} />
           <Route path="checkout" element={<CheckOut />} />
+          <Route path="product" element={<Product />} />
         </Routes>
       </BrowserRouter>
     </section>
